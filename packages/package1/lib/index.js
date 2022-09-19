@@ -19,7 +19,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function fn() {
   (0, _pnpmDemoPackage().default)();
-  console.log('package2 fn');
+  console.log('package1 fn');
 }
 
 var _default = fn;
