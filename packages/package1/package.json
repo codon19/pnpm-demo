@@ -1,12 +1,19 @@
 {
   "name": "@codon/pnpm-demo-package1",
-  "version": "1.0.0",
+  "version": "3.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
+    "build": "father-build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@codon/pnpm-demo-package2": "workspace:*"
+  }
 }
