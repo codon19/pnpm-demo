@@ -1,5 +1,11 @@
 # @codon/pnpm-demo-package1
 
+## 3.0.2
+
+### Patch Changes
+
+- 5fdeb37: test
+
 ## 3.0.1
 
 ### Patch Changes
